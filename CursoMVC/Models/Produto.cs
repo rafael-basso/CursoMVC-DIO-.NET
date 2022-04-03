@@ -9,8 +9,8 @@ namespace CursoMVC.Models
     public class Produto
     {
         public int Id { get; set; }
-        [Display(Name = "Descricao")]
-        [Required(ErrorMessage = "Campo obrigatório")]
+        //[Display(Name = "Descricao")]
+        //[Required(ErrorMessage = "Campo obrigatório")]
 
         public string Descricao { get; set; }
 
