@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Razor Page & Bootstrap";
+    var titulo = "Usando variáveis com RazorPages";
+    var paragrafo1 = "Texto paragrafo 1";
+    var paragrafo2 = "Texto paragrafo 2";
+
+    string[] nomes = { "Maria", "Carla", "Rafael", "Taine", "Suzana", "Pedro"};
+    int[] nota = { 2, 4, 7, 3, 10, 7 };
+    var resultado = "";    
+}
+
+<link href="/css/Razor.css" rel="stylesheet" />
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="col-12">
+    <h5>@titulo "col-12"</h5>
+</div>
+<div class="col-12 d-flex justify-content-around">
+    <p>@paragrafo1 "col-6"</p>
+    <p>@paragrafo2 "col-6"</p>
+</div>
+
+<div col-12>
+    <h3>Nomes dos alunos</h3>
+    <ul>
+        @foreach (var nome in nomes)
+            {
+                <li>@nome</li>
+            }        
+    </ul>
+</div>
+
+<div col-12>
+    <h3>Aprovação:</h3>
+    @for (int i = 0; i < nomes.Length; i++)
+    {
+        if (nota[i] > 5)
+        {
+            resultado = "aprovado";
+        } 
+        else
+        {
+            resultado = "reprovado";
+        }
+        
+        <div class="pl-5">
+            <span>@("Aluno: " + nomes[i] + ", " + "Nota: ")</span>
+            <span class="@resultado">@nota[i]</span>
+        </div>                  
+    }
+</div>
+
+<div class="pt-5">
+    <table class="table table-bordered w-50 table-striped">
+        <thead class="custom-border">
+            <tr>
+                <th>#</th>
+                <th>Aluno</th>
+                <th>Nota</th>            
+                <th>Status</th>            
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < nomes.Length; i ++)
+                {
+                    if (nota[i] > 5)
+                    {
+                        resultado = "aprovado";
+                    }
+                    else
+                    {
+                        resultado = "reprovado";
+                    }
+                    <tr>
+                        <th>@i</th>
+                        <td>@nomes[i]</td>
+                        <td class="@resultado">@nota[i]</td>
+                        <td class="@resultado">@resultado</td>
+                    </tr>
+                }        
+    </table>
+</div>
+

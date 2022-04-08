@@ -420,7 +420,6 @@ C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\Razo
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\Razor\Views\Categorias\Edit.cshtml.g.cs
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\Razor\Views\Categorias\Index.cshtml.g.cs
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\Razor\Views\Produtos\Create.cshtml.g.cs
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\Razor\Views\Produtos\Delete.cshtml.g.cs
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\Razor\Views\Produtos\Details.cshtml.g.cs
@@ -439,3 +438,4 @@ C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\Curs
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\ref\CursoMVC.dll
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\CursoMVC.pdb
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\CursoMVC.genruntimeconfig.cache
+C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\Razor\Views\Home\Razor.cshtml.g.cs

@@ -23,7 +23,7 @@ namespace CursoMVC.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Razor()
         {
             return View();
         }

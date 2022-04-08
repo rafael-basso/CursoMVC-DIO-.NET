@@ -1,0 +1,15 @@
+﻿.aprovado {
+    color: #0026ff;
+}
+
+.reprovado {
+    color: #ff0000;
+}
+
+/*.fixed {
+    table-layout: fixed;    
+}*/
+
+.custom-border {
+    border-bottom: 5px solid #dee2e6;
+}

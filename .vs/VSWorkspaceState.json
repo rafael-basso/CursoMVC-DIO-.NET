@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CursoMVC\\Views",
+    "\\CursoMVC\\Views\\Shared",
+    "\\CursoMVC\\wwwroot",
+    "\\CursoMVC\\wwwroot\\css"
   ],
   "SelectedNode": "\\CursoMVC.sln",
   "PreviewInSolutionExplorer": false
