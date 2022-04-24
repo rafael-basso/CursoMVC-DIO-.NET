@@ -422,9 +422,9 @@ C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoAPI\obj\Debug\net5.0\Curs
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoAPI\obj\Debug\net5.0\CursoAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoAPI\obj\Debug\net5.0\CursoAPI.RazorAssemblyInfo.cache
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoAPI\obj\Debug\net5.0\CursoAPI.RazorAssemblyInfo.cs
+C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoAPI\obj\Debug\net5.0\scopedcss\bundle\CursoAPI.styles.css
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoAPI\obj\Debug\net5.0\staticwebassets\CursoAPI.StaticWebAssets.Manifest.cache
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoAPI\obj\Debug\net5.0\staticwebassets\CursoAPI.StaticWebAssets.xml
-C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoAPI\obj\Debug\net5.0\scopedcss\bundle\CursoAPI.styles.css
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoAPI\obj\Debug\net5.0\CursoAPI.TagHelpers.input.cache
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoAPI\obj\Debug\net5.0\CursoAPI.TagHelpers.output.cache
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoAPI\obj\Debug\net5.0\CursoAPI.RazorCoreGenerate.cache
