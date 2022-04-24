@@ -24,8 +24,7 @@ namespace CursoMVC.Controllers
         }
 
         public IActionResult Razor()
-        {
-            ViewData["Title"] = "Razor Page & Bootstrap";
+        {            
             ViewBag.Message = "ViewBag criado dentro da HomeController";
             return View();
         }

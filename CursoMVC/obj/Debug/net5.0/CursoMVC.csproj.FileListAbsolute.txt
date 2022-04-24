@@ -437,3 +437,4 @@ C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\Curs
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\ref\CursoMVC.dll
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\CursoMVC.pdb
 C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\CursoMVC.genruntimeconfig.cache
+C:\Users\rafael.basso\Documents\Personal\CursoMVC\CursoMVC\obj\Debug\net5.0\CursoMVC.csproj.AssemblyReference.cache
