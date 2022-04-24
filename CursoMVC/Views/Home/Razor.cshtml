@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Razor Page & Bootstrap";
+    @*ViewData["Title"] = "Razor Page & Bootstrap";*@
     var titulo = "Usando variáveis com RazorPages";
     var paragrafo1 = "Texto paragrafo 1";
     var paragrafo2 = "Texto paragrafo 2";
@@ -12,6 +12,7 @@
 <link href="/css/Razor.css" rel="stylesheet" />
 
 <h1>@ViewData["Title"]</h1>
+<h3>@ViewBag.Message</h3>
 
 <div class="col-12">
     <h5>@titulo "col-12"</h5>
