@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Modal";
+}
+
+<link rel="stylesheet" href="~/css/Modal.css" />
+<script type="text/javascript" src="~/js/Modal.js"></script>
+
+<script src="https://kit.fontawesome.com/eeef9db054.js" crossorigin="anonymous"></script>
+
+<button type="button" class="open">Abrir modal</button>
+<dialog>
+    <div class="title">
+        <div class="d-flex col-12">
+            <h2 class="col-12 text-center">Title</h2>
+            <i class="fa-sharp fa-solid fa-xmark closeImg"></i>
+        </div>
+        <div class="text-center">
+            <img src="https://images.benchmarkemail.com/client1422157/image11934814.png" />
+        </div>
+    </div>
+    <div class="body">
+        <p>
+            It is a long established fact that a reader will be distracted by the    readable content   of a page when looking at.
+        </p>
+    </div>
+    <div class="modalFooter">
+        <button type="button" class="closeModal">Close</button>
+    </div>
+</dialog>

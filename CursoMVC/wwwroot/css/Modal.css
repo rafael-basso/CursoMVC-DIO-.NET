@@ -1,0 +1,73 @@
+﻿dialog::backdrop {
+  background-color: rgb(0 0 0 / 0.3);
+}
+
+dialog {
+  width: 50vw;
+  height: 55vh;
+  border-radius: 8px;
+  border: 3px solid black;
+  overflow: hidden;
+}
+
+.title div:first-child i {
+  cursor: pointer;
+  border: 1px solid #C0C0C0;
+  border-radius: 4px;
+  padding: 0.3rem 0.4rem;
+  background-color: buttonface;
+}
+
+.title div:first-child i:hover {
+  background-color: hsl(1, 10%, 90%);
+}
+
+.title div:first-child {    
+    align-items: center;
+    justify-content: end;
+}
+
+.title div:first-child h2 {
+  padding-left: 2rem;
+}
+
+.body {  
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.body p {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.modalFooter {
+    text-align: center;    
+}
+
+.modalFooter button {
+    padding: 0.5rem 1rem;
+    width: 15vw;
+    cursor: pointer;
+    border: 1px solid #C0C0C0;
+    border-radius: 4px;
+}
+
+.modalFooter button:hover {
+    background-color: hsl(1, 10%, 90%);
+}
+
+@media screen and (max-width: 1024px) {
+    dialog {
+        width: auto;
+        height: fit-content;
+    }
+
+    .modalFooter button {
+        width: auto;
+    }
+
+    button:focus {
+        outline: none;
+    }
+}

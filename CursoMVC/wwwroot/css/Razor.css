@@ -13,3 +13,37 @@
 .custom-border {
     border-bottom: 5px solid #dee2e6;
 }
+
+
+/*COLLAPSE DIV*/
+.check {
+    display: none;
+}
+
+.content {
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: max-height 0.5s;
+}
+
+.check:checked + .content {
+    max-height: 100vh;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*Auto-Resize Imgs*/
+.scaleA {
+    width: 100%;
+    /*max-width: max-content;*/
+}
+
+.scaleB {
+    background-image: url('../Images/html-css.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

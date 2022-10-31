@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - CursoMVC</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/site.css" />    
+    <script type="text/javascript" src="~/lib/jquery/dist/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -18,17 +19,23 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">                            
+                        <li class="nav-item">
                             <a>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link text-dark" })</a>
                         </li>
-                        <li class="nav-item">                            
+                        <li class="nav-item">
                             <a>@Html.ActionLink("Categorias", "Index", "Categorias", new { area = "" }, new { @class = "nav-link text-dark" })</a>
                         </li>
-                        <li class="nav-item">                            
+                        <li class="nav-item">
                             <a>@Html.ActionLink("Produtos", "Index", "Produtos", new { area = "" }, new { @class = "nav-link text-dark" })</a>
                         </li>
                         <li class="nav-item">
-                            <a>@Html.ActionLink("RazorPage", "Razor", "Home", new { area = ""}, new { @class = "nav-link text-dark" })</a>                            
+                            <a>@Html.ActionLink("RazorPage", "Razor", "Home", new { area = "" }, new { @class = "nav-link text-dark" })</a>
+                        </li>
+                        <li class="nav-item">
+                            <a>@Html.ActionLink("Carousel", "Carousel1", "Home", new { area = "" }, new { @class = "nav-link text-dark" })</a>
+                        </li>
+                        <li class="nav-item">
+                            <a>@Html.ActionLink("ModalSample", "Modal", "Home", new { area = "" }, new { @class = "nav-link text-dark" })</a>
                         </li>
                     </ul>
                 </div>
