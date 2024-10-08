@@ -1,0 +1,126 @@
+plataforma para criacao de aplicacoes
+.net framework = microsoft
+.net core => linux
+xamarin = mobile
+asp.net => .net para web
+
+verificar versoes do .net para funcionar corretamente
+
+*codespaces // vs code online
+
+pra rodar tem quer as bibliotecas SDK e Runtime
+
+Nuget = pckg manager
+ORM (pega seus objetos e transforma em sql), LINQ: acesso a dados
+
+CLR (common language runtime) = compilador de uma linguagem para a de maquina
+
+MVC
+model = o estado da aplicacao encapsulando logica de negocio (validacoes)
+view = apresentar dados atraves de interface
+controller = componentes/classes que lidam com a interacao do usuario a partir da view e trabalha com a model para apresentar respostas para o usuario
+
+Razor Pages e Razor markup
+
+XAML = xml do xamarin
+
+KISS: keep it stupid simple
+
+DICAS: declare variaveis proximo de seu uso; agrupe metodos similares; declare funcoes de cima para baixo
+PascalCase: classes e metodos
+camelCase: variaveis e parametros
+
+xamarin: mobile plataform
+XAML: logica do C# junto com XML
+
+.net core (MVC)
+.net framework (WEB forms/WEB pages)
+Aplicacao baseada em container: AZURE
+
+framework: caixa de ferramentas
+runtime: apos ser compiladom o runtime volta para o codigo binario
+CLI: command line interface
+	
+Operacoes LINQ (language integrated query)
+Ex de metodos: Where(), OrderBy(), Min(), Max(), Average(), Sum(), Distinct()
+var numQuery = numbers.Where(num => num % 2 == 0).OrderBy(n => n).ToList();
+
+Colocar os elementos de uma lista em uma string
+string string = string.Join(', ', numArray)
+
+var minimo = numArray.Min();
+var soma = numArray.Sum();
+var distinct = numArray().ToArray(); // retorna um array com os valores sem os repetidos 
+
+entity Framework: Database first (BD criado antes e as classes representando os dados), model first (gera modelo primeiro e depois o BD), code first (criar classes primeiro para usufruir do BD)
+
+EXTENSIONS VSCODE:
+c#
+gitLens
+azure repos
+nuget package manager
+
+PRIMEIROS PASSOS COM .NET
+about.me/gabrielfaraday
+Classes: tipo mais fundamental do c#
+estado da classe: campos
+acoes da class: metodos
+objetos: instancia da classe
+CONSTRUTOR: mesmo nome da classe PascalCase: sempre {this.x = x} // o this referencia-se a classe
+//garbage colector = desalocar da memoria objetos instaciados nao mais utilizados
+MEMBROS ESTATICOS: pertencem a classe
+MEMBROS DE INSTANCIA: pertecem ao objeto
+Membros = constantes, variaveis, metodos, propriedades, construtores, etc
+ACESSIBILIDADE:
+public: por toda parte
+protected: apenas classes que herdam desta classe
+internal: somente classes de mesmo project(assembly) podem acessar
+private: acessado somente dentro da classe que ele esta contido
+HERANCA // ":" so pode herdar de uma classe
+METODOS // acoes e estados que uma classe ou objetos podem ter
+metodos = usar verbos
+propriedades = usar substantivos
+
+TIPOS DE VALOR:
+enum, struct, nullable (int?) // pode receber valor null
+
+ENUM: tipo de valor distinto com conjunto de constantes nomeadas // como se fosse o contrario de hard code, declara valores constantes
+Caso nao declare o tipo do enum, ele vai ser int por padrao
+
+VALUE TYPES & REFERENCE TYPES
+forma como o compilador separa os valores que vao ser tratados no codigo (onde esses valores serao armazenados dentro do CLR - command language runtime) - ajuda a achar bugs e erros de codigo
+CTS (command type system)
+Reference Type (nunca atribui valor, contem uma referencia para uma instancia do tipo criado) // sempre inicia como "null"
+Value Type (tem a instancia)
+valores em .net sao na verdade INSTANCIAS = sempre copiada ao atribuir o valor para outra variavel
+GC (garbage collector): tem que tirar da stack
+//value type faz a copia da variavel que morre dentro do bloco, por tem que retornar  a variavel
+VALUE TYPE and REFERENCE TYPE
+struct eh value type
+reference type is classes
+tipo de valor faz uma copia (na memoria eh como se reservasse um espaco para o nome da variavel e outro com o valor)
+-no tipo referencia, qdo o objeto eh criado ele guarda o valor inicial NULL.
+Qdo instancia o objeto, ele referencia o valor do objeto em outro local (aponta para um local de memoria). O valor do objeto guarda o end de memoria que aponta para o local de memoria onde o end eh referenciado.
+Se a classe estiver na mesma namespace, nao precisa ser public
+
+variaveis tipo valor ficam na stack e referencia fica na heap // heap a gente nao enxerga. as instancias ficam na stack e referenciam ao conteudo que esta na heap. O Garbage Collector verifica se o que tem na heap nao tiver referencia (ou seja, algo na stack), ela apaga
+
+Se usar using static System.Console, nao precisa usar Console.WriteLine e sim somente o WriteLine
+
+Template String c#:
+WriteLine($"O nome e: {p1.nome}");
+
+Comandos:
+dotnet --help
+dotnet --info
+Criar projeto: 
+1) listar opcoes de aplicacoes web: dotnet new --list --tag web
+2) dotnet new mvc -o <nameOfFolder>
+-open folder in vs code
+-debug project (f5)
+-open launchSeetings.json and delete https url in "applicationUrl"
+3) dotnet restore = instala as dependencias que faltam no meu projeto
+4) dotnet build = compila para linguagem de maquina em pacotes .exe e .dll
+CRIAR PROJETO CONSOLE:
+dotnet new console --framework net6.0
+
