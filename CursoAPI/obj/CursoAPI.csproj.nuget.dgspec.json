@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafael.basso\\Documents\\Personal\\GitHub_Projects\\CursoMVC\\CursoAPI\\CursoAPI.csproj": {}
+    "C:\\Users\\rafae\\Source\\Repos\\CursoMVC-DIO-.NET\\CursoAPI\\CursoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafael.basso\\Documents\\Personal\\GitHub_Projects\\CursoMVC\\CursoAPI\\CursoAPI.csproj": {
+    "C:\\Users\\rafae\\Source\\Repos\\CursoMVC-DIO-.NET\\CursoAPI\\CursoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafael.basso\\Documents\\Personal\\GitHub_Projects\\CursoMVC\\CursoAPI\\CursoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\rafae\\Source\\Repos\\CursoMVC-DIO-.NET\\CursoAPI\\CursoAPI.csproj",
         "projectName": "CursoAPI",
-        "projectPath": "C:\\Users\\rafael.basso\\Documents\\Personal\\GitHub_Projects\\CursoMVC\\CursoAPI\\CursoAPI.csproj",
-        "packagesPath": "C:\\Users\\rafael.basso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafael.basso\\Documents\\Personal\\GitHub_Projects\\CursoMVC\\CursoAPI\\obj\\",
+        "projectPath": "C:\\Users\\rafae\\Source\\Repos\\CursoMVC-DIO-.NET\\CursoAPI\\CursoAPI.csproj",
+        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafae\\Source\\Repos\\CursoMVC-DIO-.NET\\CursoAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rafael.basso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\rafael.basso\\Documents\\Personal\\GitHub_Projects\\CursoMVC\\CursoMVC\\CursoMVC.csproj": {
-                "projectPath": "C:\\Users\\rafael.basso\\Documents\\Personal\\GitHub_Projects\\CursoMVC\\CursoMVC\\CursoMVC.csproj"
+              "C:\\Users\\rafae\\Source\\Repos\\CursoMVC-DIO-.NET\\CursoMVC\\CursoMVC.csproj": {
+                "projectPath": "C:\\Users\\rafae\\Source\\Repos\\CursoMVC-DIO-.NET\\CursoMVC\\CursoMVC.csproj"
               }
             }
           }
@@ -38,6 +43,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -98,21 +108,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rafael.basso\\Documents\\Personal\\GitHub_Projects\\CursoMVC\\CursoMVC\\CursoMVC.csproj": {
+    "C:\\Users\\rafae\\Source\\Repos\\CursoMVC-DIO-.NET\\CursoMVC\\CursoMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafael.basso\\Documents\\Personal\\GitHub_Projects\\CursoMVC\\CursoMVC\\CursoMVC.csproj",
+        "projectUniqueName": "C:\\Users\\rafae\\Source\\Repos\\CursoMVC-DIO-.NET\\CursoMVC\\CursoMVC.csproj",
         "projectName": "CursoMVC",
-        "projectPath": "C:\\Users\\rafael.basso\\Documents\\Personal\\GitHub_Projects\\CursoMVC\\CursoMVC\\CursoMVC.csproj",
-        "packagesPath": "C:\\Users\\rafael.basso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafael.basso\\Documents\\Personal\\GitHub_Projects\\CursoMVC\\CursoMVC\\obj\\",
+        "projectPath": "C:\\Users\\rafae\\Source\\Repos\\CursoMVC-DIO-.NET\\CursoMVC\\CursoMVC.csproj",
+        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafae\\Source\\Repos\\CursoMVC-DIO-.NET\\CursoMVC\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rafael.basso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,6 +134,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -132,6 +147,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -186,7 +206,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
